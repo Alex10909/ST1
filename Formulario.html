@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+body {
+	background-image: url(Fotos/Fondo2.jpg);
+}
+table {
+	background-color:#FFF;
+	text-align: left;
+	border-radius: 10px;
+}
+
+</style>
+</head>
+
+<body>
+<h1 align="center" >Formulario de ingreso a Bibliotech</h1>
+<p align="center"><img src="Fotos/Logo.jpg" alt="" width="135" height="134" align="middle" /> </p>
+<form id="form1" name="form1" method="post" action="http://localhost/Sitio_Alex/formulario.php">
+
+  <div align="center">
+    <table background-color= #fff width="19%">
+      <tr>
+        <td width="100%"><h3><em>Dirección de correo</em>:</h3></td>
+      </tr>
+      <tr>
+        <td><h3>
+          <input name="email" type="text" id="email" value="Email" size="30" maxlength="30" />
+        </h3></td>
+      </tr>
+      <tr>
+        <td><h3>
+          
+          <em>
+            <label>Contraseña</label>
+            :
+          </em></h3></td>
+      </tr>
+      <tr>
+        <td><input name="contra" type="password" id="contra" maxlength="10" /></td>
+      </tr>
+      <tr>
+        <td><h3><em>
+          <label>Es la primera vez que accedo</label>
+        </em></h3></td>
+      </tr>
+      <tr>
+        <td><h3>
+          <input type="checkbox" name="primera" id="primera" />
+        </h3></td>
+      </tr>
+      <tr>
+        <td><h3><em>Deseo recibir información</em></h3></td>
+      </tr>
+      <tr>
+        <td><h5>
+          <input name="radio" type="radio" id="si" value="si" checked="checked" />
+          <label for="si">Sí
+            <input type="radio" name="radio" id="No" value="No" />
+            No</label>
+        </h5></td>
+      </tr>
+      <tr>
+        <td><h3><em>¿Qué tipos de libros te interesan?</em></h3></td>
+      </tr>
+      <tr>
+        <td align="left"><select name="Libros" id="Libros">
+          <option selected="selected">...</option>
+          <option>Acción</option>
+          <option>Romanticos</option>
+          <option>Científicos</option>
+          <option>Distopicos</option>
+          <option>Infantiles</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td align="center"><div align="left">
+          <h3><em>Comentarios</em>:</h3>
+        </div></td>
+      </tr>
+      <tr>
+        <td align="center"><textarea name="Comentarios" id="Comentarios" cols="45" rows="5"></textarea></td>
+      </tr>
+      <tr>
+        <td align="center">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center"><input type="submit" name="button" id="button" value="Enviar" />        <input type="reset" name="button2" id="button2" value="Restablecer" /></td>
+      </tr>
+    </table>
+  </div>
+</form>
+<p>&nbsp;</p>
+</body>
+</html>
